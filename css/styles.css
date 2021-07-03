@@ -1,0 +1,64 @@
+/* common */
+/* smoll screen */
+:root {
+  font-size: 8px;
+}
+@media (min-width : 600px) {
+  :root {
+    font-size: 9px;
+  }
+  
+}
+@media (min-width : 800px) {
+  :root {
+    font-size: 10px;
+  }
+ 
+}
+body {
+  margin: 0;
+}
+headar {
+  color:#626262;
+}
+#head1 [src="img/taro.png"] {
+  border: solid 2px white;
+  border-radius: 50%;
+}
+/* medium screen */
+
+
+
+#head1 {
+  background-color: rgb(196, 218, 238);
+  display: flex;
+  /* width: 350px; */
+  width: calc(35rem);
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+#head1 h1 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+#head1 p {
+  margin: 0 0 8px; 
+  font-size: 1.6rem;
+}
+#info ol {
+  display: flex;
+  list-style: none; 
+  padding: 0;
+}
+#info ol li {
+  margin-right: 10px;
+}
+#breadclums ol {
+  display: flex;
+  list-style: none;
+}
+#breadclums li {
+  /* padding-left: 10px; */
+}
