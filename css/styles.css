@@ -3,15 +3,15 @@
 :root {
   font-size: 8px;
 }
-@media (min-width : 600px) {
+@media (min-width : 400px) {
   :root {
-    font-size: 9px;
+    font-size: 10px;
   }
   
 }
 @media (min-width : 800px) {
   :root {
-    font-size: 10px;
+    font-size: 12px;
   }
  
 }
@@ -33,7 +33,7 @@ headar {
   background-color: rgb(196, 218, 238);
   display: flex;
   /* width: 350px; */
-  width: calc(35rem);
+  width: 35rem;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
@@ -54,11 +54,13 @@ headar {
 }
 #info ol li {
   margin-right: 10px;
+  
 }
 #breadclums ol {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 #breadclums li {
-  /* padding-left: 10px; */
+  font-size: 1.6rem;
 }
